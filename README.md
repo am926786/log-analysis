@@ -30,7 +30,7 @@ Ensure the log file follows the standard Apache/Nginx log format
 
 # Running the Script
 
-log_analysis.py
+python log_analysis.py
 
 # Customization
 
