@@ -42,7 +42,7 @@ Change log_file_path in main() to analyze different log files
 
 The script provides two types of output:
 
-Terminal display with summary of:
+1. Terminal display with summary of:
 
 Requests per IP address
 
@@ -52,9 +52,9 @@ Suspicious login activities
 
 CSV file log_analysis_results.csv with detailed breakdown
 
-# Log Format Support
+Log Format Support
 
-Supports log entries in the following format:
+2. Supports log entries in the following format:
 
 CopyIP_ADDRESS - - [DATE] "METHOD /ENDPOINT HTTP/VERSION" STATUS_CODE SIZE
 
